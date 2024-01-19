@@ -14,7 +14,7 @@ dependencies {
 repositories {
 //  mavenCentral()
     maven {
-        url "http://<Nexus Private IP>:8081/repository/<nexus artifact repository Name>"
+        url "http://ec2-3-36-91-209.ap-northeast-2.compute.amazonaws.com:8081/repository/test-docker-nexus-repository90/"
         allowInsecureProtocol true
     }
 

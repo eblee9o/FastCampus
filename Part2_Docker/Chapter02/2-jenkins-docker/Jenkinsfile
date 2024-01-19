@@ -14,7 +14,7 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Build Codes by Gradle') {
+        stage('Build Codes by Gradle') {Z
             steps {
                 sh """
                 cd ${mainDir}
